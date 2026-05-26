@@ -1,0 +1,2118 @@
+{
+  "name": "Composite Threat Landscape",
+  "versions": {
+    "attack": "18",
+    "navigator": "5.1.0",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Weighted aggregate of 8 threat actors",
+  "filters": {
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Cloud"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": true,
+    "showName": true
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1027.009",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1059",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1620",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1584",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1027",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1053",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1095",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1573.002",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1566",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1583",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1497",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1071.004",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1518",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1608.005",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1070",
+      "score": 5,
+      "enabled": true,
+      "comment": "Used by: APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1571",
+      "score": 4.333333333333334,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1071",
+      "score": 4.333333333333334,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1059.007",
+      "score": 4.090909090909091,
+      "enabled": true,
+      "comment": "Used by: Turla, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1102",
+      "score": 4.090909090909091,
+      "enabled": true,
+      "comment": "Used by: Turla, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1027.005",
+      "score": 4.090909090909091,
+      "enabled": true,
+      "comment": "Used by: Turla, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1055",
+      "score": 4.090909090909091,
+      "enabled": true,
+      "comment": "Used by: Turla, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1036",
+      "score": 3.9230769230769234,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1030",
+      "score": 3.9230769230769234,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1112",
+      "score": 3.8571428571428577,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1082",
+      "score": 3.8571428571428577,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1027.006",
+      "score": 3.8000000000000003,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1140",
+      "score": 3.666666666666667,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1573",
+      "score": 3.6666666666666665,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1053.005",
+      "score": 3.6666666666666665,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1071.001",
+      "score": 3.571428571428571,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1059.003",
+      "score": 3.571428571428571,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1057",
+      "score": 3.571428571428571,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1133",
+      "score": 3.545454545454545,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1070.006",
+      "score": 3.545454545454545,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1566.002",
+      "score": 3.5217391304347827,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1204.002",
+      "score": 3.4799999999999995,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1070.004",
+      "score": 3.4799999999999995,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1105",
+      "score": 3.4,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1059.001",
+      "score": 3.4,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1204.001",
+      "score": 3.4,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1083",
+      "score": 3.3870967741935485,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1204",
+      "score": 3.125,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1087.001",
+      "score": 3.095238095238095,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1078.003",
+      "score": 3.0000000000000004,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Turla"
+    },
+    {
+      "techniqueID": "T1546.003",
+      "score": 3.0000000000000004,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Turla, Operation Ghost"
+    },
+    {
+      "techniqueID": "T1587.001",
+      "score": 3.0000000000000004,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Turla, Operation Ghost"
+    },
+    {
+      "techniqueID": "T1059.006",
+      "score": 3.0000000000000004,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Turla"
+    },
+    {
+      "techniqueID": "T1021.007",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1562.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1218.005",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1021.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla"
+    },
+    {
+      "techniqueID": "T1485",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1553.006",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1562.004",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1201",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1036.010",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1027.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1586.003",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1106",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1007",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1651",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1136.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1102.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), Operation Ghost"
+    },
+    {
+      "techniqueID": "T1553.005",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1548.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1665",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1027.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1583.006",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1134.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1565",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1047",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1547.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1621",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1036.005",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1565.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1114.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1120",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla"
+    },
+    {
+      "techniqueID": "T1550.003",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1078.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1567",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1001.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Operation Ghost"
+    },
+    {
+      "techniqueID": "T1589",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1098.005",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1136.003",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1037.004",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1649",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1546.013",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1589.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1556.007",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1071.003",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla"
+    },
+    {
+      "techniqueID": "T1546.008",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1124",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1070.003",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1552",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1027.011",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1016.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1037",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1547.004",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1005",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1016.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1518.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1055.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1585.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1584.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1046",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1098.007",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1090.004",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1572",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1588.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1213.006",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1003.004",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1021.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1110",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla"
+    },
+    {
+      "techniqueID": "T1562.008",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1068",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Turla"
+    },
+    {
+      "techniqueID": "T1583.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten), Operation Ghost"
+    },
+    {
+      "techniqueID": "T1568",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1567.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1090.001",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1059.009",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear)"
+    },
+    {
+      "techniqueID": "T1592.002",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1564.012",
+      "score": 3.0,
+      "enabled": true,
+      "comment": "Used by: Turla"
+    },
+    {
+      "techniqueID": "T1056.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1598.003",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1498",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1546.015",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1562.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1203",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1048.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1550.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1564.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1137.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1190",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1550.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1564.003",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1003.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1090.003",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1213.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1589.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1119",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1210",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1027.013",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1003",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1059.005",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1003.003",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1070.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1584.008",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1218.011",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1110.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1078.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Operation Ghost"
+    },
+    {
+      "techniqueID": "T1014",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1078.004",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1134.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1090.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1074.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1573.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1542.003",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1110.003",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1211",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1505.003",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1557.004",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1098.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1528",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1074.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1018",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1090",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1001.001",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1221",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1598",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1114.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1559.002",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1669",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear)"
+    },
+    {
+      "techniqueID": "T1016",
+      "score": 2.9999999999999996,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten)"
+    },
+    {
+      "techniqueID": "T1078",
+      "score": 2.6153846153846154,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1189",
+      "score": 2.6,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1025",
+      "score": 2.545454545454545,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1588",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1566.001",
+      "score": 2.4375,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1039",
+      "score": 2.411764705882353,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1213",
+      "score": 2.411764705882353,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1199",
+      "score": 2.230769230769231,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1583.003",
+      "score": 2.217391304347826,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1560.001",
+      "score": 2.2,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Turla, APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1012",
+      "score": 2.142857142857143,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1087.002",
+      "score": 2.142857142857143,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1561",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1564",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1052",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1530",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1537",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1657",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1006",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1021",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1531",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1222",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1200",
+      "score": 2.0,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1113",
+      "score": 1.9999999999999998,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1595.002",
+      "score": 1.96551724137931,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1586.002",
+      "score": 1.96551724137931,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT28 (Fancy Bear), APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1087.004",
+      "score": 1.9473684210526319,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1049",
+      "score": 1.8888888888888888,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1570",
+      "score": 1.8888888888888888,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1588.004",
+      "score": 1.875,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1608",
+      "score": 1.875,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1087",
+      "score": 1.875,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate, APT29 Diplomatic Phishing"
+    },
+    {
+      "techniqueID": "T1560",
+      "score": 1.8235294117647056,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1040",
+      "score": 1.8235294117647056,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1091",
+      "score": 1.8235294117647056,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1566.003",
+      "score": 1.6363636363636362,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1087.003",
+      "score": 1.4615384615384615,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1486",
+      "score": 1.4615384615384615,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1033",
+      "score": 1.4615384615384615,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1562",
+      "score": 1.4615384615384615,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1114",
+      "score": 1.4615384615384615,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1587.003",
+      "score": 1.4210526315789476,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1003.002",
+      "score": 1.4210526315789476,
+      "enabled": true,
+      "comment": "Used by: APT29 (Cozy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1027.010",
+      "score": 1.3333333333333333,
+      "enabled": true,
+      "comment": "Used by: Turla, APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1585.001",
+      "score": 1.3333333333333333,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Operation Ghost, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1037.001",
+      "score": 1.2352941176470587,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1591",
+      "score": 1.2352941176470587,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1092",
+      "score": 1.2352941176470587,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1596",
+      "score": 1.2352941176470587,
+      "enabled": true,
+      "comment": "Used by: APT28 (Fancy Bear), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1612",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1584.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1027.007",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1499.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1491.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1591.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1593.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1647",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1555.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1557.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1595",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1056",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1560.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1596.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1029",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1608.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1584.005",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1590",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1036.007",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1591.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1564.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1590.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1590.006",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1111",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1218.013",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1592.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1588.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1027.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Operation Ghost, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1074",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1069.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1115",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1011",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1564.011",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1587.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1588.005",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1482",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1070.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1593.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1195.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1021.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1580",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1123",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1036.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1021.008",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1563.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1136.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1080",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1557.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1650",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1584.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1490",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1222.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1037.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1587",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1606.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1596.005",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1659",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1036.009",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1613",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1590.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1135",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1590.005",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: APT35 (Magic Hound/Charming Kitten), Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1222.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1588.006",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1125",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1505.005",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1036.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1598.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1608.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1489",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1574.013",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1565.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1560.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1597.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1596.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1583.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1484",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1619",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1552.005",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1217",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1588.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1529",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1615",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1205.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1652",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1555.006",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1586",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1587.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1596.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1037.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1069",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1591.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1557.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1591.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1586.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1595.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1555.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1578",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1098.006",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1574.009",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1036.001",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1010",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1069.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1590.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1589.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1562.011",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1584.006",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Turla, Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1592.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1596.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1535",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1598.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1195.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1608.004",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1555",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1585.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1593",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1556.008",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1583.008",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1027.012",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1592.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1021.006",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1593.002",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1562.012",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    },
+    {
+      "techniqueID": "T1552.007",
+      "score": 1,
+      "enabled": true,
+      "comment": "Used by: Insider Threats - Aggregate"
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#ffffff00",
+      "#ff6666"
+    ],
+    "minValue": 0,
+    "maxValue": 10
+  },
+  "legendItems": [],
+  "metadata": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}

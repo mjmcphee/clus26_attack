@@ -1,0 +1,450 @@
+{
+  "name": "Turla",
+  "versions": {
+    "attack": "18",
+    "navigator": "5.1.0",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "MITRE ATT&CK Group G0010",
+  "filters": {
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Cloud"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": true,
+    "showName": true
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1584.006",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1112",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1069.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1140",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1588.002",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1059.007",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1134.002",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1562.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1059.005",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1546.013",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1583.006",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1055.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1105",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1555.004",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1090",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1068",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1615",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1049",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1106",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1071.003",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1021.002",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1547.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1005",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1012",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1007",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1110",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1570",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1189",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1584.004",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1087.002",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1564.012",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1120",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1567.002",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1102.002",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1071.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1124",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1087.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1204.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1090.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1546.003",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1560.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1059.003",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1057",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1016",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1587.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1025",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1518.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1059.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1027.010",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1059.006",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1213.006",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1018",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1588.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1069.002",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1027.011",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1547.004",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1553.006",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1566.002",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1016.001",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1102",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1082",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1584.003",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1036.005",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1055",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1078.003",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1201",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1083",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    },
+    {
+      "techniqueID": "T1027.005",
+      "score": 3,
+      "enabled": true,
+      "comment": "Used by Turla"
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#ffffff00",
+      "#ff6666"
+    ],
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "legendItems": [],
+  "metadata": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}

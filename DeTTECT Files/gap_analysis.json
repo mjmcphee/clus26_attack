@@ -1,0 +1,3391 @@
+{
+  "name": "Gap Analysis",
+  "versions": {
+    "attack": "18",
+    "navigator": "5.1.0",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Coverage gaps (red = needs improvement, blue = well-covered)",
+  "filters": {
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Cloud"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": true,
+    "showName": true
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1620",
+      "score": 12.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 0, Gap: 12.5"
+    },
+    {
+      "techniqueID": "T1584",
+      "score": 12.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 0, Gap: 12.5"
+    },
+    {
+      "techniqueID": "T1095",
+      "score": 12.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 0, Gap: 12.5"
+    },
+    {
+      "techniqueID": "T1573.002",
+      "score": 12.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 0, Gap: 12.5"
+    },
+    {
+      "techniqueID": "T1583",
+      "score": 12.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 0, Gap: 12.5"
+    },
+    {
+      "techniqueID": "T1071.004",
+      "score": 12.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 0, Gap: 12.5"
+    },
+    {
+      "techniqueID": "T1608.005",
+      "score": 12.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 0, Gap: 12.5"
+    },
+    {
+      "techniqueID": "T1571",
+      "score": 10.833333333333336,
+      "enabled": true,
+      "comment": "Threat: 4.3, Coverage: 0, Gap: 10.8"
+    },
+    {
+      "techniqueID": "T1071",
+      "score": 10.833333333333336,
+      "enabled": true,
+      "comment": "Threat: 4.3, Coverage: 0, Gap: 10.8"
+    },
+    {
+      "techniqueID": "T1566",
+      "score": 10.0,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 1, Gap: 10.0"
+    },
+    {
+      "techniqueID": "T1518",
+      "score": 10.0,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 1, Gap: 10.0"
+    },
+    {
+      "techniqueID": "T1070",
+      "score": 10.0,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 1, Gap: 10.0"
+    },
+    {
+      "techniqueID": "T1573",
+      "score": 9.166666666666666,
+      "enabled": true,
+      "comment": "Threat: 3.7, Coverage: 0, Gap: 9.2"
+    },
+    {
+      "techniqueID": "T1071.001",
+      "score": 8.928571428571427,
+      "enabled": true,
+      "comment": "Threat: 3.6, Coverage: 0, Gap: 8.9"
+    },
+    {
+      "techniqueID": "T1102",
+      "score": 7.727272727272727,
+      "enabled": true,
+      "comment": "Threat: 4.1, Coverage: 1, Gap: 7.7"
+    },
+    {
+      "techniqueID": "T1055",
+      "score": 7.727272727272727,
+      "enabled": true,
+      "comment": "Threat: 4.1, Coverage: 1, Gap: 7.7"
+    },
+    {
+      "techniqueID": "T1587.001",
+      "score": 7.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1021.007",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1027.009",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 2, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1059",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 2, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1036.010",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1027.001",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1586.003",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1106",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1651",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1665",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1027.002",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1583.006",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1027",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 2, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1001.002",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1589",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1098.005",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1136.003",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1589.002",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1071.003",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1497",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 2, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1055.001",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1585.002",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1584.001",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1098.007",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1090.004",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1588.002",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1213.006",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1562.008",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1583.001",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1059.009",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1592.002",
+      "score": 7.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1598.003",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1498",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1550.001",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1589.001",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1584.008",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1078.004",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1573.001",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1557.004",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1098.002",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1528",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1001.001",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1598",
+      "score": 7.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 0, Gap: 7.5"
+    },
+    {
+      "techniqueID": "T1036",
+      "score": 7.307692307692308,
+      "enabled": true,
+      "comment": "Threat: 3.9, Coverage: 1, Gap: 7.3"
+    },
+    {
+      "techniqueID": "T1133",
+      "score": 6.363636363636362,
+      "enabled": true,
+      "comment": "Threat: 3.5, Coverage: 1, Gap: 6.4"
+    },
+    {
+      "techniqueID": "T1566.002",
+      "score": 6.304347826086957,
+      "enabled": true,
+      "comment": "Threat: 3.5, Coverage: 1, Gap: 6.3"
+    },
+    {
+      "techniqueID": "T1588",
+      "score": 6.25,
+      "enabled": true,
+      "comment": "Threat: 2.5, Coverage: 0, Gap: 6.2"
+    },
+    {
+      "techniqueID": "T1105",
+      "score": 6.0,
+      "enabled": true,
+      "comment": "Threat: 3.4, Coverage: 1, Gap: 6.0"
+    },
+    {
+      "techniqueID": "T1059.001",
+      "score": 6.0,
+      "enabled": true,
+      "comment": "Threat: 3.4, Coverage: 1, Gap: 6.0"
+    },
+    {
+      "techniqueID": "T1204.001",
+      "score": 6.0,
+      "enabled": true,
+      "comment": "Threat: 3.4, Coverage: 1, Gap: 6.0"
+    },
+    {
+      "techniqueID": "T1583.003",
+      "score": 5.543478260869565,
+      "enabled": true,
+      "comment": "Threat: 2.2, Coverage: 0, Gap: 5.5"
+    },
+    {
+      "techniqueID": "T1059.007",
+      "score": 5.227272727272727,
+      "enabled": true,
+      "comment": "Threat: 4.1, Coverage: 2, Gap: 5.2"
+    },
+    {
+      "techniqueID": "T1102.002",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1565",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1036.005",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1530",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 0, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1053",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 5.0, Coverage: 3, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1537",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 0, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1518.001",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1531",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 0, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1572",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1568",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1090.001",
+      "score": 5.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1056.001",
+      "score": 4.999999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1562.001",
+      "score": 4.999999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1090.003",
+      "score": 4.999999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1014",
+      "score": 4.999999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1090.002",
+      "score": 4.999999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1090",
+      "score": 4.999999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1559.002",
+      "score": 4.999999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1669",
+      "score": 4.999999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 1, Gap: 5.0"
+    },
+    {
+      "techniqueID": "T1595.002",
+      "score": 4.913793103448275,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 0, Gap: 4.9"
+    },
+    {
+      "techniqueID": "T1586.002",
+      "score": 4.913793103448275,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 0, Gap: 4.9"
+    },
+    {
+      "techniqueID": "T1087.004",
+      "score": 4.86842105263158,
+      "enabled": true,
+      "comment": "Threat: 1.9, Coverage: 0, Gap: 4.9"
+    },
+    {
+      "techniqueID": "T1030",
+      "score": 4.807692307692308,
+      "enabled": true,
+      "comment": "Threat: 3.9, Coverage: 2, Gap: 4.8"
+    },
+    {
+      "techniqueID": "T1588.004",
+      "score": 4.6875,
+      "enabled": true,
+      "comment": "Threat: 1.9, Coverage: 0, Gap: 4.7"
+    },
+    {
+      "techniqueID": "T1608",
+      "score": 4.6875,
+      "enabled": true,
+      "comment": "Threat: 1.9, Coverage: 0, Gap: 4.7"
+    },
+    {
+      "techniqueID": "T1112",
+      "score": 4.642857142857144,
+      "enabled": true,
+      "comment": "Threat: 3.9, Coverage: 2, Gap: 4.6"
+    },
+    {
+      "techniqueID": "T1082",
+      "score": 4.642857142857144,
+      "enabled": true,
+      "comment": "Threat: 3.9, Coverage: 2, Gap: 4.6"
+    },
+    {
+      "techniqueID": "T1053.005",
+      "score": 4.166666666666666,
+      "enabled": true,
+      "comment": "Threat: 3.7, Coverage: 2, Gap: 4.2"
+    },
+    {
+      "techniqueID": "T1057",
+      "score": 3.928571428571428,
+      "enabled": true,
+      "comment": "Threat: 3.6, Coverage: 2, Gap: 3.9"
+    },
+    {
+      "techniqueID": "T1070.006",
+      "score": 3.8636363636363624,
+      "enabled": true,
+      "comment": "Threat: 3.5, Coverage: 2, Gap: 3.9"
+    },
+    {
+      "techniqueID": "T1070.004",
+      "score": 3.699999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.5, Coverage: 2, Gap: 3.7"
+    },
+    {
+      "techniqueID": "T1587.003",
+      "score": 3.552631578947369,
+      "enabled": true,
+      "comment": "Threat: 1.4, Coverage: 0, Gap: 3.6"
+    },
+    {
+      "techniqueID": "T1083",
+      "score": 3.467741935483871,
+      "enabled": true,
+      "comment": "Threat: 3.4, Coverage: 2, Gap: 3.5"
+    },
+    {
+      "techniqueID": "T1585.001",
+      "score": 3.333333333333333,
+      "enabled": true,
+      "comment": "Threat: 1.3, Coverage: 0, Gap: 3.3"
+    },
+    {
+      "techniqueID": "T1591",
+      "score": 3.0882352941176467,
+      "enabled": true,
+      "comment": "Threat: 1.2, Coverage: 0, Gap: 3.1"
+    },
+    {
+      "techniqueID": "T1092",
+      "score": 3.0882352941176467,
+      "enabled": true,
+      "comment": "Threat: 1.2, Coverage: 0, Gap: 3.1"
+    },
+    {
+      "techniqueID": "T1596",
+      "score": 3.0882352941176467,
+      "enabled": true,
+      "comment": "Threat: 1.2, Coverage: 0, Gap: 3.1"
+    },
+    {
+      "techniqueID": "T1204",
+      "score": 2.8125,
+      "enabled": true,
+      "comment": "Threat: 3.1, Coverage: 2, Gap: 2.8"
+    },
+    {
+      "techniqueID": "T1078.003",
+      "score": 2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1561",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 1, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1612",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1584.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1027.007",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1499.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1562.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1564",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 1, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1591.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1593.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1647",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1021.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1555.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1485",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1595",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1596.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1608.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1584.005",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1562.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1590",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1591.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1590.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1590.006",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1201",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1592.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1588.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1027.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1587.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1007",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1588.005",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1593.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1136.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1195.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1553.005",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1580",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1021.008",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1134.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1557.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1650",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1584.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1037.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1587",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1565.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1596.005",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1613",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1590.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1590.005",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1588.006",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1120",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1550.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1036.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1598.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1567",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1608.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1574.013",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1565.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1597.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1596.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1583.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1556.007",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1619",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1552.005",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1124",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1588.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1555.006",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1586",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1587.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1596.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1016.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1591.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1591.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1586.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1595.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1578",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1098.006",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1046",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1036.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1590.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1589.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1584.006",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1592.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1596.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1535",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1598.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1195.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1003.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1200",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 1, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1021.001",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1608.004",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1585.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1593",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1583.008",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1068",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1592.003",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1593.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1567.002",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1552.007",
+      "score": 2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 0, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1048.002",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1550.002",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1190",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1003.001",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1213.002",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1210",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1027.013",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1003",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1059.005",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1070.001",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1218.011",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1078.002",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1134.001",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1542.003",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1505.003",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1221",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1016",
+      "score": 2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 2, Gap: 2.5"
+    },
+    {
+      "techniqueID": "T1570",
+      "score": 2.2222222222222223,
+      "enabled": true,
+      "comment": "Threat: 1.9, Coverage: 1, Gap: 2.2"
+    },
+    {
+      "techniqueID": "T1566.003",
+      "score": 1.5909090909090906,
+      "enabled": true,
+      "comment": "Threat: 1.6, Coverage: 1, Gap: 1.6"
+    },
+    {
+      "techniqueID": "T1078",
+      "score": 1.5384615384615385,
+      "enabled": true,
+      "comment": "Threat: 2.6, Coverage: 2, Gap: 1.5"
+    },
+    {
+      "techniqueID": "T1033",
+      "score": 1.1538461538461537,
+      "enabled": true,
+      "comment": "Threat: 1.5, Coverage: 1, Gap: 1.2"
+    },
+    {
+      "techniqueID": "T1562",
+      "score": 1.1538461538461537,
+      "enabled": true,
+      "comment": "Threat: 1.5, Coverage: 1, Gap: 1.2"
+    },
+    {
+      "techniqueID": "T1566.001",
+      "score": 1.09375,
+      "enabled": true,
+      "comment": "Threat: 2.4, Coverage: 2, Gap: 1.1"
+    },
+    {
+      "techniqueID": "T1039",
+      "score": 1.029411764705882,
+      "enabled": true,
+      "comment": "Threat: 2.4, Coverage: 2, Gap: 1.0"
+    },
+    {
+      "techniqueID": "T1199",
+      "score": 0.5769230769230771,
+      "enabled": true,
+      "comment": "Threat: 2.2, Coverage: 2, Gap: 0.6"
+    },
+    {
+      "techniqueID": "T1012",
+      "score": 0.357142857142857,
+      "enabled": true,
+      "comment": "Threat: 2.1, Coverage: 2, Gap: 0.4"
+    },
+    {
+      "techniqueID": "T1087.002",
+      "score": 0.357142857142857,
+      "enabled": true,
+      "comment": "Threat: 2.1, Coverage: 2, Gap: 0.4"
+    },
+    {
+      "techniqueID": "T1087.001",
+      "score": 0.23809523809523725,
+      "enabled": true,
+      "comment": "Threat: 3.1, Coverage: 3, Gap: 0.2"
+    },
+    {
+      "techniqueID": "T1027.005",
+      "score": 0.22727272727272707,
+      "enabled": true,
+      "comment": "Threat: 4.1, Coverage: 4, Gap: 0.2"
+    },
+    {
+      "techniqueID": "T1546.003",
+      "score": 1.1102230246251565e-15,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1557.003",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 1, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1111",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 1, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1482",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 1, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1548.002",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1036.004",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 1, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1047",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1621",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1484",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 1, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1006",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 2, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1070.003",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1021",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 2, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1615",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 1, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1557.001",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 1, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1547.004",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1005",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1222",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 2, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1562.012",
+      "score": 0.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 1, Gap: 0.0"
+    },
+    {
+      "techniqueID": "T1113",
+      "score": -5.551115123125783e-16,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 2, Gap: -0.0"
+    },
+    {
+      "techniqueID": "T1546.015",
+      "score": -1.1102230246251565e-15,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: -0.0"
+    },
+    {
+      "techniqueID": "T1203",
+      "score": -1.1102230246251565e-15,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: -0.0"
+    },
+    {
+      "techniqueID": "T1564.001",
+      "score": -1.1102230246251565e-15,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: -0.0"
+    },
+    {
+      "techniqueID": "T1137.002",
+      "score": -1.1102230246251565e-15,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: -0.0"
+    },
+    {
+      "techniqueID": "T1114.002",
+      "score": -1.1102230246251565e-15,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 3, Gap: -0.0"
+    },
+    {
+      "techniqueID": "T1049",
+      "score": -0.2777777777777779,
+      "enabled": true,
+      "comment": "Threat: 1.9, Coverage: 2, Gap: -0.3"
+    },
+    {
+      "techniqueID": "T1027.006",
+      "score": -0.49999999999999933,
+      "enabled": true,
+      "comment": "Threat: 3.8, Coverage: 4, Gap: -0.5"
+    },
+    {
+      "techniqueID": "T1140",
+      "score": -0.8333333333333326,
+      "enabled": true,
+      "comment": "Threat: 3.7, Coverage: 4, Gap: -0.8"
+    },
+    {
+      "techniqueID": "T1189",
+      "score": -0.9999999999999998,
+      "enabled": true,
+      "comment": "Threat: 2.6, Coverage: 3, Gap: -1.0"
+    },
+    {
+      "techniqueID": "T1059.003",
+      "score": -1.071428571428572,
+      "enabled": true,
+      "comment": "Threat: 3.6, Coverage: 4, Gap: -1.1"
+    },
+    {
+      "techniqueID": "T1204.002",
+      "score": -1.3000000000000012,
+      "enabled": true,
+      "comment": "Threat: 3.5, Coverage: 4, Gap: -1.3"
+    },
+    {
+      "techniqueID": "T1027.010",
+      "score": -1.666666666666667,
+      "enabled": true,
+      "comment": "Threat: 1.3, Coverage: 2, Gap: -1.7"
+    },
+    {
+      "techniqueID": "T1059.006",
+      "score": -2.499999999999999,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1561.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1218.005",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1041",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1056",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1553.006",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1029",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1036.007",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1564.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1207",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1069.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1115",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1559",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1011",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1559.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1534",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1070.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1021.003",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1543.003",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1123",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1052",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 3, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1563.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1136.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1561.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1499.004",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1611",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1557",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1547.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1490",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1020",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1484.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1222.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1606.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1659",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1036.009",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1135",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1114.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1222.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1048",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1219",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1125",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1078.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1102.003",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1489",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1037.004",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1649",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1055.012",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1546.013",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1134",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1048.003",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1134.004",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1546.008",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1529",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1499.003",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1552",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1556.005",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1652",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1027.011",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1499.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1037",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1484.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1016.001",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1565.003",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1010",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1499",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1069.002",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1562.011",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1185",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1547.012",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1555",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1110",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1027.012",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1021.006",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 2, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1606",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 1, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1564.012",
+      "score": -2.5,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1564.003",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1119",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1003.003",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1110.001",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1074.001",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1110.003",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1211",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1074.002",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1018",
+      "score": -2.500000000000001,
+      "enabled": true,
+      "comment": "Threat: 3.0, Coverage: 4, Gap: -2.5"
+    },
+    {
+      "techniqueID": "T1091",
+      "score": -2.941176470588236,
+      "enabled": true,
+      "comment": "Threat: 1.8, Coverage: 3, Gap: -2.9"
+    },
+    {
+      "techniqueID": "T1025",
+      "score": -3.6363636363636376,
+      "enabled": true,
+      "comment": "Threat: 2.5, Coverage: 4, Gap: -3.6"
+    },
+    {
+      "techniqueID": "T1486",
+      "score": -3.8461538461538463,
+      "enabled": true,
+      "comment": "Threat: 1.5, Coverage: 3, Gap: -3.8"
+    },
+    {
+      "techniqueID": "T1003.002",
+      "score": -3.947368421052631,
+      "enabled": true,
+      "comment": "Threat: 1.4, Coverage: 3, Gap: -3.9"
+    },
+    {
+      "techniqueID": "T1213",
+      "score": -3.9705882352941178,
+      "enabled": true,
+      "comment": "Threat: 2.4, Coverage: 4, Gap: -4.0"
+    },
+    {
+      "techniqueID": "T1560.001",
+      "score": -4.5,
+      "enabled": true,
+      "comment": "Threat: 2.2, Coverage: 4, Gap: -4.5"
+    },
+    {
+      "techniqueID": "T1546.009",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1491.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 3, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1497.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1136",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1548.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1496.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1127",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1568.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1567.004",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1053.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1219.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1496.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1567.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1547.008",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1216.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1027.015",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1008",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1555.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1036.003",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1070.009",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1218.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1562.010",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1080",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 3, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1564.013",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1205",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1187",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1137.003",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1558",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1539",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1218",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1546",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1564.005",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1674",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1205.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1505",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1505.005",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 3, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1553.003",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1563.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1542",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1552.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1556.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1606.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1543",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1657",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 2.0, Coverage: 4, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1553",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1216.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1574.014",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1216",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1127.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1547.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1564.004",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1497.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1554",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1614.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1037.003",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 3, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1614",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1667",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1569.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1563",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1104",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1497.003",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1555.004",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 3, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1547.005",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1556",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1543.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1011.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1048.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1547.010",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1220",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1556.001",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1574",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1027.014",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1480.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1555.005",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1668",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1555.003",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1134.003",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1547",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1574.005",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1556.008",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 3, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1548",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1496",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1137.004",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1218.008",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1056.004",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1137.005",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1564.014",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1546.010",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1176.002",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1562.003",
+      "score": -5.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 2, Gap: -5.0"
+    },
+    {
+      "techniqueID": "T1087",
+      "score": -5.3125,
+      "enabled": true,
+      "comment": "Threat: 1.9, Coverage: 4, Gap: -5.3"
+    },
+    {
+      "techniqueID": "T1560",
+      "score": -5.4411764705882355,
+      "enabled": true,
+      "comment": "Threat: 1.8, Coverage: 4, Gap: -5.4"
+    },
+    {
+      "techniqueID": "T1040",
+      "score": -5.4411764705882355,
+      "enabled": true,
+      "comment": "Threat: 1.8, Coverage: 4, Gap: -5.4"
+    },
+    {
+      "techniqueID": "T1087.003",
+      "score": -6.346153846153846,
+      "enabled": true,
+      "comment": "Threat: 1.5, Coverage: 4, Gap: -6.3"
+    },
+    {
+      "techniqueID": "T1114",
+      "score": -6.346153846153846,
+      "enabled": true,
+      "comment": "Threat: 1.5, Coverage: 4, Gap: -6.3"
+    },
+    {
+      "techniqueID": "T1037.001",
+      "score": -6.911764705882353,
+      "enabled": true,
+      "comment": "Threat: 1.2, Coverage: 4, Gap: -6.9"
+    },
+    {
+      "techniqueID": "T1070.005",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1547.003",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1574.011",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1560.002",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1562.006",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1218.010",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1218.013",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1491",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1074",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1550",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1564.011",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1622",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1137",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1574.012",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1197",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1569",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1098",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1574.010",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1176",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1556.006",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1574.006",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1218.007",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1053.003",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1560.003",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1204.004",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1574.001",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1546.007",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1070.007",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1027.004",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1217",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1564.006",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1205.002",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1069",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1569.003",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1070.008",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1053.006",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1546.011",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1574.009",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 1.0, Coverage: 4, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1548.003",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1052.001",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1491.001",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1547.006",
+      "score": -7.5,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 3, Gap: -7.5"
+    },
+    {
+      "techniqueID": "T1137.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1480",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1552.006",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1546.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1003.007",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1552.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1110.002",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1653",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1027.017",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1547.009",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1546.002",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1552.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1218.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1558.005",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1212",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1654",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1562.009",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1127.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1137.006",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1021.005",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1553.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1059.011",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1218.012",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1218.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1098.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1110.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1114.003",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1218.003",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1552.003",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1505.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1546.017",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1505.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1218.015",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1546.005",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1056.003",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1218.014",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1055.009",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1564.010",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1176.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1021.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1566.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1480.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1574.008",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1546.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1547.013",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1072",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1059.004",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1056.002",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1218.009",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1219.001",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1547.014",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1127.003",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1003.008",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1070.010",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1546.012",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1556.003",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1505.002",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1564.008",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1672",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1656",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1673",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1546.016",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1574.007",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1202",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1059.010",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1003.005",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    },
+    {
+      "techniqueID": "T1036.008",
+      "score": -10.0,
+      "enabled": true,
+      "comment": "Threat: 0.0, Coverage: 4, Gap: -10.0"
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#6666ff",
+      "#ffffff00",
+      "#ff6666"
+    ],
+    "minValue": -10,
+    "maxValue": 10
+  },
+  "legendItems": [],
+  "metadata": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}

@@ -1,0 +1,326 @@
+{
+  "name": "APT29 Diplomatic Phishing",
+  "versions": {
+    "attack": "18",
+    "navigator": "5.2.0",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "TTPs extracted from threat intelligence",
+  "filters": {
+    "platforms": [
+      "Linux",
+      "macOS",
+      "Windows",
+      "Azure AD",
+      "Office 365",
+      "SaaS",
+      "IaaS",
+      "Google Workspace",
+      "PRE",
+      "Network",
+      "Containers",
+      "Cloud"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": true,
+    "showName": true,
+    "showAggregateScores": true,
+    "countUnscored": false
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1608",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1071",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1087",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1070.004",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1588",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1071.004",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1055",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1573",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1105",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1133",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1059.001",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1087.001",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1102",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1059.007",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1087.002",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1027",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1059",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1030",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1497",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1566",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1071.001",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1571",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1566.002",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1012",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1095",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1053",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1204.001",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1070",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1070.006",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1566.001",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1027.006",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1583",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1588.004",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1112",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1057",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1083",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1027.009",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1059.003",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1140",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1053.005",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1204.002",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1573.002",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1608.005",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1584",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1027.005",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1518",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1082",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1583.003",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1204",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1036",
+      "score": 5,
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1620",
+      "score": 5,
+      "enabled": true
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#ffffff00",
+      "#ff0000"
+    ],
+    "minValue": 0,
+    "maxValue": 5
+  },
+  "legendItems": [],
+  "metadata": [
+    {
+      "name": "Source",
+      "value": "https://cloud.google.com/blog/topics/threat-intelligence/apt29-evolving-diplomatic-phishing"
+    },
+    {
+      "name": "Parsing Mode",
+      "value": "HTML parsing"
+    },
+    {
+      "name": "Related Tactics",
+      "value": "TA0001, TA0002, TA0003, TA0004, TA0007, TA0009, TA0010, TA0011, TA0042"
+    }
+  ],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false,
+  "links": [
+    {
+      "label": "Source Report",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/apt29-evolving-diplomatic-phishing"
+    }
+  ]
+}

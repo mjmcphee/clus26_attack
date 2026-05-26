@@ -1,0 +1,782 @@
+version: 1.1
+file_type: data-source-administration
+name: Cisco Live Endpoint Project, Phase 1 (Baseline)
+domain: enterprise-attack
+systems:
+  - applicable_to: default
+    platform:
+      - Windows
+      - Linux
+  - applicable_to: Windows
+    platform:
+      - Windows
+  - applicable_to: Linux
+    platform:
+      - Linux
+data_sources:
+  - data_source_name: Command Execution
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+          - rsyslog
+          - auditd
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Process Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+          - rsyslog
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: File Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+          - rsyslog
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: File Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+          - rsyslog
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Windows Registry Key Modification
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Network Connection Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Application Log Content
+    data_source:
+      - applicable_to:
+          - Linux
+        date_registered: null
+        date_connected: null
+        products:
+          - rsyslog
+          - auditd
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: File Access
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+          - rsyslog
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Windows Registry Key Creation
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Logon Session Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products:
+          - rsyslog
+          - Sysmon
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: User Account Authentication
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Active Directory Credential Request
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Active Directory Object Access
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Active Directory Object Creation
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Active Directory Object Deletion
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Active Directory Object Modification
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Driver Load
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon w/ SwiftOnSecurity Template
+          - rsyslog
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: File Deletion
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Firewall Disable
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Firewall Enumeration
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Firewall Rule Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Firmware Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Group Enumeration
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Group Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Host Status
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Module Load
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Named Pipe Metadata
+    data_source:
+      - applicable_to:
+          - Linux
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Network Share Access
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Network Traffic Flow
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: OS API Execution
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Process Access
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Process Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Process Termination
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Scheduled Job Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Scheduled Job Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Script Execution
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Service Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Service Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: User Account Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: User Account Deletion
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: User Account Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: WMI Creation
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Web Credential Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Web Credential Usage
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Windows Registry Key Access
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Windows Registry Key Deletion
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: false
+        comment: ''
+        data_quality:
+          device_completeness: 0
+          data_field_completeness: 0
+          timeliness: 0
+          consistency: 0
+          retention: 0
+  - data_source_name: Kernel Module Load
+    data_source:
+      - applicable_to:
+          - Linux
+        date_registered: null
+        date_connected: null
+        products: []
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: File Metadata
+    data_source:
+      - applicable_to:
+          - Windows
+        date_registered: null
+        date_connected: null
+        products:
+          - Sysmon
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+  - data_source_name: Network Traffic Content
+    data_source:
+      - applicable_to:
+          - Windows
+          - Linux
+        date_registered: null
+        date_connected: null
+        products:
+          - eBPF agent
+          - Sysmon
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 1
+          data_field_completeness: 1
+          timeliness: 1
+          consistency: 1
+          retention: 1
+notes: Endpoint-based detection sources enabled on Windows and Linux endpoints in Beefneck Enterprises environment

@@ -1,0 +1,66 @@
+{
+  "name": "Threat Intelligence Report",
+  "versions": {
+    "attack": "18",
+    "navigator": "5.2.0",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "TTPs extracted from threat intelligence",
+  "filters": {
+    "platforms": [
+      "Linux",
+      "macOS",
+      "Windows",
+      "Azure AD",
+      "Office 365",
+      "SaaS",
+      "IaaS",
+      "Google Workspace",
+      "PRE",
+      "Network",
+      "Containers",
+      "Cloud"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": true,
+    "showName": true,
+    "showAggregateScores": true,
+    "countUnscored": false
+  },
+  "hideDisabled": false,
+  "techniques": [],
+  "gradient": {
+    "colors": [
+      "#ffffff00",
+      "#ff0000"
+    ],
+    "minValue": 0,
+    "maxValue": 5
+  },
+  "legendItems": [],
+  "metadata": [
+    {
+      "name": "Source",
+      "value": "https://www.darkreading.com/cyberattacks-data-breaches/russian-apt-turla-novel-backdoor-malware-polish-ngos"
+    },
+    {
+      "name": "Parsing Mode",
+      "value": "Text parsing"
+    }
+  ],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false,
+  "links": [
+    {
+      "label": "Source Report",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-apt-turla-novel-backdoor-malware-polish-ngos"
+    }
+  ]
+}
